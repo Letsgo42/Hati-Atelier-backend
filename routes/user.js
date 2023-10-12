@@ -21,7 +21,8 @@ router.post('/register', asyncErrorHandler(async (req, res, next) => {
   // Create user in database
   const user = await UserModel.create({
     username: body.username,
-    password: hashPassword
+    password: hashPassword,
+    role: body.role
   })
   if (!user) {
     logger.log('error', 'User not created')
