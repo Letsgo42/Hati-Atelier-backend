@@ -1,6 +1,5 @@
 // IMPORT MODULES
 const express = require('express')
-const asyncHandler = require('express-async-handler')
 const jwt = require('jsonwebtoken');
 const logger = require('../tools/logger')
 const asyncErrorHandler = require('../tools/asyncErrorHandler');

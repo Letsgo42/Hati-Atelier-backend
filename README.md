@@ -3,15 +3,15 @@
 ## Contexte:
 Editions Machettes souhaite développer une API sécurisée pour gérer une bibliothèque de livres avec des utilisateurs ayant différents rôles (admin et utilisateur standard).
 
-## Spécifications:
+## Installation:
 
-### 1. **Initialisation:**
-   - Création d'un projet Node.js.
-   - Installation des packages nécessaires: `express`, `winston`, `mongoose`, `jsonwebtoken`.
+   - Cloner le dossier GitHub https://github.com/Letsgo42/Hati-Atelier-backend
+   - Se placer à la racine du dossier *Hati-Atelier-Backend*
+   - Taper la commande `npm install` dans le terminal.
 
-### 2. **Système de Logging avec Winston:**
-   - Configuration de Winston pour enregistrer les informations, les warnings et les erreurs.
-   - Les logs doivent être consignés dans un fichier `logs.txt`.
+## Exécution:
+
+   - Exécuter la commande `node index.js` ou aller.
 
 ### 3. **Modèles de Données avec Mongoose:**
    - Modèle `User` avec les champs `username`, `password` et `role` (admin ou user).
