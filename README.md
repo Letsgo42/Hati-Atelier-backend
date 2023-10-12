@@ -11,7 +11,8 @@ Editions Machettes souhaite développer une API sécurisée pour gérer une bibl
 
 ## Exécution:
 
-   - Exécuter la commande `node index.js` ou aller.
+   - Exécuter la commande `node index`.
+
 
 ### 3. **Modèles de Données avec Mongoose:**
    - Modèle `User` avec les champs `username`, `password` et `role` (admin ou user).

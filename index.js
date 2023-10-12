@@ -16,17 +16,17 @@ const app = express()
 
 // IMPORT MODELS
 require('./models/user')
-require('./models/book')
+// require('./models/book')
 
 // IMPORT ROUTES
 const userRouter = require('./routes/user.js')
-const bookRouter = require('./routes/book.js')
+// const bookRouter = require('./routes/book.js')
 
 // USE EXPRESS MIDDLEWARE
 app.use(express.json())
 
 app.use('/users', userRouter)
-app.use('/books', bookRouter)
+// app.use('/books', bookRouter)
 
 // CREATE SERVER
 app.listen(PORT, () => {

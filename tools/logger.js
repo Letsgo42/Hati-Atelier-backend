@@ -20,7 +20,6 @@ const logger = createLogger({
         format.simple()
       )
     }),
-    new transports.File({ filename: '../logs/Machettes-errors.log', level: 'error' }),
     new transports.File({ filename: '../logs/logs.txt' })
   ]
 })
