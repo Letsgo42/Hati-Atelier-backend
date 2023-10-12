@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Letsgo42/Hati-Atelier-backend#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
+    "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.6.1",
     "winston": "^3.11.0"
