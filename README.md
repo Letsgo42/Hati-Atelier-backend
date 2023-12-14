@@ -41,10 +41,6 @@ Editions Machettes souhaite développer une API sécurisée pour gérer une bibl
    - Tests complets de tous les endpoints avec des outils appropriés.
    - Vérification de la sécurité JWT et de la gestion d'erreur.
 
-## Livrables:
-- Code source documenté et commenté.
-- Documentation d'utilisation et un README de déploiement de l'API.
-
 ## Bonus
 - Réaliser un front-end simple pour exploiter l'API : technos et outils libre
 
